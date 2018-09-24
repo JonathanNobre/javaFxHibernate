@@ -91,7 +91,7 @@ public class PessoaDao {
 
     }
 
-    public Pessoa remove(Integer id) {
+    public static Pessoa remove(Integer id) {
 
         EntityManager em = new ConnectionFactory().getConnection();
 

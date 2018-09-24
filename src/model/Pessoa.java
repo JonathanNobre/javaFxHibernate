@@ -82,5 +82,11 @@ public class Pessoa {
         return true;
     }
 
+    @Override
+    public String toString() {
+        return "Pessoa{" + "id=" + id + ", nome=" + nome + ", sobreNome=" + sobreNome + '}';
+    }
+    
+    
 
 }
